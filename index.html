@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      header {
+        display: flex;
+        border-bottom: black solid 2px;
+        position: fixed;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+      }
+      .column {
+        flex: 25%;
+        max-width: 25%;
+      }
+      @media (max-width: 1000px) {
+        header {
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+      }
+      @media (max-width: 1300px) {
+        .column {
+          flex: 40%;
+          max-width: 40%;
+        }
+      }
+      @media (max-width: 900px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      @media (max-width: 700px) {
+        .column {
+          flex: 70%;
+          max-width: 70%;
+        }
+      }
+      @media (max-width: 426px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <img class="logo" id="header-img" src="https://images-platform.99static.com/FNOXS7mUd7XY43bHVcFg-t7wMH4=/0x0:2040x2040/500x500/top/smart/99designs-contests-attachments/87/87464/attachment_87464535" alt="" width="100%" height="auto" />
+      <h1 class="title">POWERNEER</h1>
+      <nav id="nav-bar" class="navbar">
+        <ul>
+          <li><a class="nav-link" href="#overview">Overview</a></li>
+          <li><a class="nav-link" href="#mutu">Services</a></li>
+          <li><a class="nav-link" href="#services">Product</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="overview" class="overview-section">
+      <h2>Overview Company</h2>
+      <div class="border-bottom"></div>
+      <div class="video">
+        <iframe
+          id="video"
+          width="100%"
+          height="auto"
+          src="https://www.youtube.com/embed/6ACaI5rudMU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <section id="mutu" class="mutu-section">
+      <h2>Our Services</h2>
+      <div class="border-bottom"></div>
+      <div class="box-mutu">
+        <div class="mutu">
+          <i class="fas fa-user-tie"></i>
+          <p><span>Profesional Workers</span><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, vel?</p>
+        </div>
+        <div class="mutu">
+          <i class="fas fa-user-clock"></i>
+          <p><span>Fast Time Services</span><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, labore!</p>
+        </div>
+        <div class="mutu">
+          <i class="fas fa-user-shield"></i>
+          <p><span>Services Guarantee</span><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, repellendus.</p>
+        </div>
+        <div class="mutu">
+          <i class="fas fa-tools"></i>
+          <p><span>Best Quality Services</span><br />Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, facilis?</p>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services-section">
+      <h2>Our Product</h2>
+      <div class="border-bottom"></div>
+      <div class="row">
+        <div class="column">
+          <div class="project project-tile">
+            <div class="box-title"><p class="project-title">Power Plant O&M</p></div>
+            <img src="https://image.freepik.com/free-vector/atomic-reactor-windmill-solar-battery-energy-production-nuclear-power-plant-atom-fission-process-receiving-electric-charge-metaphor_335657-3385.jpg" width="100%" height="" />
+            <p class="services-desc">Our company provide transmission line operation and maintnance such as preventive maintenance, predictive maintenance. Our staff have expertise in their respective fields</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="project project-tile">
+            <div class="box-title"><p class="project-title">Transmission Line O&M</p></div>
+            <img
+              src="https://image.freepik.com/free-vector/electrician-services-abstract-concept-illustration-energy-efficient-lighting-electrical-system-maintenance-inspection-home-automation-electric-heater-repair_335657-3363.jpg"
+              width="100%"
+              height=""
+            />
+            <p class="services-desc">Our company provide transmission line operation and maintnance such as preventive maintenance, predictive maintenance. Our staff have expertise in their respective fields</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="project">
+            <div class="box-title"><p class="project-title">Power Station O&M</p></div>
+            <img src="https://image.freepik.com/free-vector/power-station-electrical-energy-generation-electricity-production-power-engineer-cartoon-character-energy-industry-electric-plant_335657-3188.jpg" width="100%" height="" />
+            <p class="services-desc">Our company provide transmission line operation and maintnance such as preventive maintenance, predictive maintenance. Our staff have expertise in their respective fields</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="project">
+            <div class="box-title"><p class="project-title">Power Distribution O&M</p></div>
+            <img src="https://image.freepik.com/free-vector/power-station-electrical-energy-generation-electricity-production-power-engineer-cartoon-character-energy-industry-electric-plant_335657-3382.jpg" width="100%" height="" />
+            <p class="services-desc">Our company provide transmission line operation and maintnance such as preventive maintenance, predictive maintenance. Our staff have expertise in their respective fields</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <h2>Need Our Services?</h2>
+      <div class="border-bottom"></div>
+      <p class="text-contact">Just send to us your email in form below and we will get in touch with you soon</p>
+      <div class="email-input">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" type="email" placeholder="Enter your email address" required="" width="100%" />
+          <input id="submit" type="submit" value="Send" class="btn" width="100%" />
+        </form>
+        <p class="info">Created by <a href="">Wahid Safri</a></p>
+      </div>
+    </section>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://kit.fontawesome.com/236462ac64.js" crossorigin="anonymous"></script>
+  </body>
+</html>

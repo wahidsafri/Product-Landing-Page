@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+h1 {
+  font-family: century gothic;
+  font-size: 5rem;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-family: century gothic;
+    font-size: 4rem;
+  }
+}
+h2 {
+  font-family: century gothic;
+  font-size: 3rem;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  h2 {
+    font-family: century gothic;
+    font-size: 2.5rem;
+  }
+}
+.logo {
+  width: 6rem;
+}
+.navbar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  justify-items: flex-end;
+}
+@media (max-width: 1000px) {
+  .navbar {
+    justify-content: center;
+    background-color: orangered;
+  }
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li a {
+  font-family: century gothic;
+  margin-inline: 2rem;
+  font-size: 2.5rem;
+  color: black;
+}
+@media (max-width: 600px) {
+  .navbar ul li a {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 426px) {
+  .navbar ul li a {
+    font-size: 1.8rem;
+    margin-inline: 1.5rem;
+  }
+}
+.navbar ul li a:hover {
+  color: orangered;
+}
+.overview-section {
+  padding: 10rem 0;
+}
+@media (max-width: 768px) {
+  .overview-section {
+    padding: 12rem 0;
+  }
+}
+.video {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+iframe {
+  width: 800px;
+  height: 500px;
+}
+@media (max-width: 768px) {
+  iframe {
+    width: 600px;
+    height: 400px;
+  }
+}
+.border-bottom {
+  padding-top: 1rem;
+  border-bottom: solid orangered 4px;
+  width: 100px;
+  display: block;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.services-section {
+  text-align: center;
+  padding: 10rem 0;
+}
+.column img {
+  vertical-align: middle;
+}
+.row {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project {
+  margin: 40px 40px;
+  border: black solid 2px;
+}
+.project-title {
+  font-size: 2rem;
+  color: black;
+}
+.services-desc {
+  text-align: center;
+  font-size: 1.7rem;
+}
+.box-title {
+  line-height: 4rem;
+  background-color: tomato;
+}
+i {
+  width: 110px;
+  font-size: 7rem;
+  color: #000000;
+}
+@media (max-width: 600px) {
+  i {
+    font-size: 5rem;
+  }
+}
+.mutu-section {
+  padding: 10rem 0;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-mutu {
+  padding: 3rem;
+}
+.mutu {
+  border: black solid 2px;
+  padding: 1rem;
+  margin: 1rem 0;
+  max-width: 70rem;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.mutu-section p {
+  font-size: 1.8rem;
+}
+@media (max-width: 600px) {
+  .mutu-section p {
+    font-size: 1.5rem;
+  }
+}
+span {
+  font-family: century gothic;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+@media (max-width: 600px) {
+  span {
+    font-size: 2rem;
+  }
+}
+.contact-section {
+  width: 100%;
+  height: 100vh;
+  padding: 10rem 0;
+  display: block;
+}
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 12rem 0;
+  }
+}
+.email-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  height: 4rem;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 0 2rem 0;
+}
+input#email {
+  width: 40rem;
+}
+@media (max-width: 426px) {
+  input#email {
+    width: 30rem;
+    font-size: 1.5rem;
+  }
+}
+input#submit.btn:hover {
+  color: white;
+  background-color: orangered;
+}
+input#submit.btn {
+  width: 10rem;
+}
+@media (max-width: 426px) {
+  input#submit.btn {
+    width: 10rem;
+    font-size: 1.5rem;
+  }
+}
+.info {
+  margin-top: 21%;
+  text-align: center;
+  border-top: black solid 3px;
+}
+@media (max-width: 426px) {
+  .info {
+    margin-top: 48%;
+  }
+}
+p.info {
+  font-family: century gothic;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.info a {
+  color: blue;
+  font-family: century gothic;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.info a:hover {
+  color: red;
+}
+.text-contact {
+  text-align: center;
+  font-size: 2rem;
+  font-family: arial;
+  margin-bottom: 4rem;
+}
+@media (max-width: 426px) {
+  .text-contact {
+    font-size: 1.5rem;
+  }
+}
